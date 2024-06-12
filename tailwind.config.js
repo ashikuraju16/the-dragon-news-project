@@ -6,14 +6,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: "'Poppins', sans-serif",
+      },
+    },
   },
   plugins: [ require('daisyui'),],
 }
-module.exports = {
-  //...
-  daisyui: {
-    themes: ["light", "dark", "cupcake"],
-  },
-}
+
 
