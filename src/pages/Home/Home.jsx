@@ -12,7 +12,7 @@ const Home = () => {
            <Headers />
            <News />
            <Login />
-           <div className=" grid lg:grid-cols-4">
+           <div className=" grid lg:grid-cols-4 mx-12">
             <div className=" col-span-1">
                 <LeftSideNav />
             </div>
