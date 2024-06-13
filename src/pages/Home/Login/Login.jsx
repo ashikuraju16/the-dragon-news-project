@@ -4,7 +4,7 @@ const Login = () => {
 	return (
 		<div className=" flex w-5/6 mx-auto justify-end  max-sm:mx-2 ">
 			<div className="mt-10 max-sm:mt-4   md:w-4/6 py-3 px-3 font-poppins ">
-				<div className=" flex md:justify-between max-sm: flex-col max-sm:space-y-5">
+				<div className=" flex justify-between sm: flex-col max-sm:space-y-5">
 					<div
 						className=" flex space-x-4 text-xl mt-2 
                      text-[#706f6f]"

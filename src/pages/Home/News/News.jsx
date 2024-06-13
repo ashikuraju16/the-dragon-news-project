@@ -1,6 +1,6 @@
 const News = () => {
 	return (
-		<div className="md:mt-10 mt-4 text-center bg-green-500 md:w-5/6 mx-auto max-sm:mx-2  py-3 px-3 font-poppins">
+		<div className="md:mt-10 mt-4 text-center bg-green-500 lg:w-5/6 lg:mx-auto max-sm:mx-2  sm:mx-3 py-3 px-3 font-poppins">
 			<div className=" flex items-center justify-between">
 				<button
 					type="button"
@@ -8,7 +8,7 @@ const News = () => {
 				>
 					Latest
 				</button>
-				<h2 className=" font-medium line-clamp-1 text-xl ">
+				<h2 className=" font-medium line-clamp-1 text-xl max-sm:text-lg">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quas
 					ad at laboriosam laborum? Reprehenderit optio, nisi tenetur accusamus
 					atque quibusdam deserunt facere ipsam culpa reiciendis fuga vitae?
