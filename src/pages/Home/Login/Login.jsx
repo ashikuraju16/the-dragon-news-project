@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Login = () => {
 	return (
 		<div className="flex w-full lg:w-5/6 mx-auto  max-sm:mx-2 justify-end">
-			<div className="mt-10 w-full max-sm:mt-4 md:w-4/6 sm:my-6 sm:mx-3 font-poppins">
+			<div className="mt-10 w-full max-sm:mt-4  sm:my-6 sm:mx-2 lg:mx-0 font-poppins">
 				<div className="flex justify-between max-sm:flex-col max-sm:space-y-5 lg:flex-row lg:space-y-0">
 					<div className="flex space-x-4 text-xl mt-2 text-[#706f6f] justify-center lg:justify-start">
 						<NavLink to="/">Home</NavLink>
