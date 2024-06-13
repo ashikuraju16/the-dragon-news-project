@@ -1,6 +1,6 @@
 const News = () => {
 	return (
-		<div className="md:mt-10 mt-4 text-center bg-[#f3f3f3] w-5/6 mx-auto max-sm:w-full  py-3 px-3 font-poppins">
+		<div className="md:mt-10 mt-4 text-center bg-green-500 md:w-5/6 mx-auto max-sm:w-11/12 max-sm:mx-1  py-3 px-3 font-poppins">
 			<div className=" flex items-center justify-between">
 				<button
 					type="button"
